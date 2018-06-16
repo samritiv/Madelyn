@@ -375,14 +375,18 @@
 			font-size: 16px;
 			font-family: Proxima Nova Semibold;
 			color: #b21f29;
+			display: inline-block;
+			width: 100%;
+			padding: 15px 0px;
 		}
 		ul.SubUL{list-style-type:none;}
 		ul.SubUL li{
-			border: 0px !important;
+			border: 0px !important;			
+		}
+		ul.SubUL li a{
 			padding: 10px 0px !important;
 		}
 		ul.MainSmallUL li{
-			padding: 15px 0px;
 			border-bottom: 1px dashed #b21f29;
 		}
 		
