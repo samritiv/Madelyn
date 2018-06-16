@@ -1,0 +1,423 @@
+@font-face {
+        font-family: 'Proxima Nova';
+        font-style: normal;
+        font-weight: normal; 
+        src: url('../Assets/Fonts/ProximaNova-Regular.eot');
+        src: url('../Assets/Fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../Assets/Fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../Assets/Fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../Assets/Fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg'),
+        url('../Assets/Fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'); 
+        }
+        @font-face {
+        font-family: 'Proxima Nova Semibold';
+        font-style: normal;
+        font-weight: normal; 
+        src: url('../Assets/Fonts/ProximaNova-Semibold.eot');
+        src: url('../Assets/Fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('../Assets/Fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('../Assets/Fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('../Assets/Fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg'),
+        url('../Assets/Fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'); 
+        }
+        /******************/
+		a:focus, a:hover{text-decoration:none !important;}
+        .FixedTemplate{
+        width:1200px;
+        margin:0px auto;
+        }
+        .FilledBtn, .FilledBtn:hover{
+        background: #fff;
+        border-radius: 4px;
+        color: #b21f29;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0 4px;
+        padding: 10px 12px;
+        text-decoration: none;
+        text-transform: uppercase;
+        position: relative;
+        top: 4px;
+		border:1px solid;
+        }
+        #myCarousel:hover .leftcontrol, #myCarousel:hover .rightcontrol{
+        opacity:1;
+        }
+        .leftcontrol, .rightcontrol{
+        height: 62px;
+        width: 62px;
+        vertical-align: top;
+        display: inline-block; 
+        background-image: url('images/custom-arrows.png') !important;
+        background-repeat: no-repeat;
+        margin: -20px 0 0;
+        position: absolute;
+        top: 45%;
+        z-index: 10;
+        overflow: hidden;
+        opacity:0;
+        }
+        .leftcontrol{
+        background-position: -52px 0;
+        left:50px;
+        }
+        .rightcontrol{
+        background-position: -114px 0;
+        right:50px;
+        }
+        .nopad{
+        padding:0px;
+        }
+        body{
+        font-family: 'Proxima Nova';
+        }
+        .leftDiv{width:50%;}
+        .centerDiv{width:0%;}
+        .top-right{width:50%; float:right; position: relative;}
+        .top-header .benefits {
+        float: left;
+        margin: 4px 0;
+        border-left: 0;
+        padding: 0;
+        }
+        .top-header .benefits li.official-store {
+        background: none;
+        padding-left: 0px;
+        }
+        
+        .top-header .benefits li {
+        color: #666666;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 30px 0 0;
+        padding-top: 0px;
+        font-family:"Proxima Nova Semibold";
+        position:relative;
+        }
+        .top-header ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        }
+        .top-right ul {
+        text-align: right;
+        padding: 0;
+        float: right;
+        margin:0px;
+        }
+        .top-right ul.contacts > li {
+        border-right: 1px solid #ccc;
+        line-height: 15px;
+        margin: 0;
+        padding: 0 8px;
+        
+        }
+        .top-header .contacts .contact-content {
+        background: #f7f7f7;
+        border-radius: 6px;
+        border-top: 2px solid #930913;
+        display: none;
+        left: 0px;
+        right:0px;
+        padding: 20px 10px;
+        position: absolute;
+        top: 27px;
+        z-index: 99;
+        width: 100%;
+        text-align:center;
+        }
+        .top-header .contacts li:hover .contact-content {
+        display: block;
+        }
+        .top-header{display:flex;    padding: 10px 0px 10px 0px !important;}
+        .top-header .contacts .contact-content .divider {
+        background: url('images/contacts-dropdown-divider.jpg') left bottom repeat-x;
+        margin: 0 0 5px;
+        padding: 0 0 10px;
+        }
+        
+        .top-header .contacts .contact-content p {
+        color: #7e7e7e;
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0 0 15px;
+        text-align: center;
+        }
+        .top-header .contacts .contact-content p strong {
+        color: #930913;
+        font-size: 16px;
+        font-family: "Proxima Nova Semibold";
+        }
+        .top-header .contacts .contact-content p a, .top-header .top-left .contacts .contact-content p span {
+        color: #000;
+        font-size: 16px;
+        font-family: "Proxima Nova Semibold";
+        }
+        
+        .top-right ul li:last-child a {
+        padding: 0 2px 0 0;
+        }        
+        .top-header .order-info > li {
+        margin-left: 0;
+        padding: 0 9px;
+        line-height: 21px;
+        -webkit-padding-before: 2px;
+        -webkit-padding-after: 2px;
+        }
+        .top-header .order-info>li>a {
+        font-size: 18px;
+    font-family: "Proxima Nova Semibold";
+    color: #b21f29;
+    border-bottom: 1px dashed;
+    text-decoration: none !important;
+        }
+        
+        .LogoImage img{width:100%;}
+        .navigationbar{padding: 30px 0px 10px;}
+        .navigationbar ul{list-style-type:none;text-align:center;margin:0px;}
+        .navigationbar ul li.relativeList, .navigationbar ul li.relativeList a {display:inline-block;height:34px;}
+        .navigationbar ul li a:hover{color: #b21f29;}
+        .navigationbar ul li a{color:#000;font-family:"Proxima Nova Semibold";font-size:14px;padding-left:30px;text-transform:uppercase;text-decoration:none;cursor: pointer;}
+        .header{padding: 20px 0px !important;box-shadow:0px 0px 3px #ddd;}
+        
+        .BtnsDiv{
+        padding:25px 0px !important;
+        text-align:right;
+        }
+        
+        ul.floor_nav {
+        width: auto !important;
+        overflow: visible!important;
+        background: none!important;
+        position: absolute;
+        top: 34px !important;
+        border: none;
+        z-index: 1;
+        padding: 0px;
+        text-align:left;
+        }
+        li.relativeList{
+        position:relative;
+        }
+        
+        ul.floor_nav li {
+        display: inline-block;
+        position: relative;            
+        }
+        ul.floor_nav li .sub-menu-wrapper-top {
+        padding: 20px;
+        border-top: 3px solid #b21f29;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        background: #fff;
+        }
+        .sub-floor-menus dl {
+        display: inline;
+        margin-bottom: -10000px;
+        overflow: hidden;
+        padding-bottom: 10000px;
+        }
+        .sub-floor-menus dl dt {
+        border-bottom: 1px dotted #c2c5c5;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 2em;
+        width: auto;
+        padding: 0 0 4px 0px;
+        margin-right: 32px;
+        letter-spacing: 0.5px;
+        background: none;
+        }
+        .sub-floor-menus dl dt a {
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 600;
+        color: #b21f29!important;
+        }
+        .sub-floor-menus dl ol.items {
+        width: 187px;
+        display: inline;
+        float: left;
+        padding: 6px 0 10px 10px;
+        }
+        .sub-floor-menus dl ol.items li {
+        display: block;
+        float: none;
+        min-height: 15px;
+        line-height: 1.4em;
+        list-style-position: outside;
+        width: auto!important;
+        padding: 0px;
+        border: none;
+        }
+        .sub-floor-menus dl ol.items li a.style1 {
+        color: #666;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 4px 0px 4px 0px;
+        font-size: 14px;
+        font-family: Proxima Nova;
+        }
+        .sub-floor-menus dl ol.items li a{
+        padding-left:8px;
+        color:#777;
+        font-size: 13px;
+        text-transform: capitalize;
+        }
+        .sub-floor-menus dl ol{
+        padding:0px;
+        }
+        .relativeList:hover ul.floor_nav{display:block;}
+        .relativeList ul.floor_nav{display:none;}
+        
+        li.official-store::before, li.secure-payment::before, li.free-shipping::before{
+        background-image: url('../images/sprite-master.png');
+        width: 16px;
+        content: " ";
+        height: 16px;
+        position: absolute;
+        left: -22px;
+        }
+        li.official-store::before{
+        background-position: -39px -980px;            
+        }
+        li.secure-payment::before{
+        background-position: -60px -980px;
+        }
+        li.secure-payment::before{
+        background-position: -60px -980px;
+        }
+		.imageDiv img{
+		box-shadow: 0px 0px 3px #ddd;
+		max-width:100%;			
+		}
+		.padd30Bottom{padding:0px 0px 30px;}
+		.smallViewDiv {
+		height: 80px;
+		padding: 20px 0px;
+		text-align: right;
+		display: block;
+			}
+		.toggleButton {
+			background: none;
+			border: none;
+			outline: 0 !important;
+			vertical-align: -webkit-baseline-middle;
+			}
+		.navbar-toggle .icon-bar{
+			width: 30px !important;
+			height: 4px !important;
+			background: black;
+			}
+		.navbar-toggle{margin-right:0px !important;margin-top: 35px !important;}
+		.slds-hide{display:none;}
+		.smallViewTabsDiv {
+			background: #fff;
+			position: fixed !important;
+			width: 100%;
+			right: 0;
+			z-index: 30;
+			top: 0;
+			height: 100%;
+			overflow-y: scroll;
+		}
+		.close {
+		  position: absolute;
+		  right: 32px;
+		  top: 32px;
+		  width: 32px;
+		  height: 32px;
+		  opacity: 1 !important;
+		}
+		.close:hover {
+		  opacity: 1;
+		}
+		.close:before, .close:after {
+		  position: absolute;
+		  left: 15px;
+		  content: ' ';
+		  height: 23px;
+		  width: 3px;
+		  background-color: #b21f29;
+		}
+		.close:before {
+		  transform: rotate(45deg);
+		}
+		.close:after {
+		  transform: rotate(-45deg);
+		}
+		a.suitsTab{padding: 0px 20px 0px 30px !important;}
+		a.suitsTab:hover::after{color:#b21f29;}
+		a.suitsTab::after{
+			color: #000000;
+			content: '\203A';
+			display: block;
+			font-size: 25px;
+			height: 25px;
+			line-height: 25px;
+			opacity: 1;
+			position: absolute;
+			right: 0px;
+			top: -5%;
+			text-align: center;
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+			transform: translateY(-50%);
+			-webkit-transform-origin: center;
+			-ms-transform-origin: center;
+			transform-origin: center;    
+			transform: rotate(90deg);
+		}
+		ul.MainSmallUL{list-style-type:none;padding:30px;}
+		ul.MainSmallUL li a{
+			font-size: 16px;
+			font-family: Proxima Nova Semibold;
+			color: #b21f29;
+		}
+		ul.SubUL{list-style-type:none;}
+		ul.SubUL li{
+			border: 0px !important;
+			padding: 10px 0px !important;
+		}
+		ul.MainSmallUL li{
+			padding: 15px 0px;
+			border-bottom: 1px dashed #b21f29;
+		}
+		
+		@media screen and (max-width:767px) and (orientation:landscape){
+			.smallViewDiv{width:70% !important;}
+			.LogoImage {width:30% !important;}
+			.navbar-toggle{margin-top: 20px !important;}
+		}
+		@media only screen and (max-width: 767px){
+		.navbar-toggle {
+			display: block !important;
+			}
+		.BtnsDiv{text-align:center;}
+		}
+		@media only screen and (min-width: 768px) and (max-width: 1024px){
+			.navigationbar ul li a, a.suitsTab{padding-left:15px !important;}			
+		}
+		@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+			.BtnsDiv a{
+				font-size: 12px !important;    
+				padding: 10px 7px!important;
+				}
+				.BtnsDiv{
+				text-align:left;
+				}
+			.leftcontrol, .rightcontrol{top: 35% !important;}
+			}
+			
+		@media screen and (max-width:1024px){
+			.FixedTemplate {
+			width: 100%;
+			margin: 0px auto;
+			padding: 0px 20px;
+			}
+			@media screen and (max-width:767px) and (orientation:landscape){
+		.padd30Bottom, .smallLandscape{width:50% !important;}
+		
+			}
