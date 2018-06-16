@@ -379,6 +379,7 @@
 			width: 100%;
 			padding: 15px 0px;
 		}
+		ul.MainSmallUL li a.close{width:32px;padding:0px;}
 		ul.SubUL{list-style-type:none;}
 		ul.SubUL li{
 			border: 0px !important;			
